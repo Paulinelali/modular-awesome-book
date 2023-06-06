@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(0, 128, 128, 0.7);
+  color: #fff;
+  padding-inline: 16px;
+}
+
+nav h1 {
+  margin-left: 32px;
+}
+
+nav h1:hover {
+  cursor: pointer;
+  color: rgb(0, 65, 65);
+  transform: scale(1.1);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 16px;
+}
+
+nav ul li {
+  margin-inline: 16px;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: rgb(0, 65, 65);
+  transform: scale(1.2);
+}
+
+#date {
+  align-self: flex-end;
+  margin-right: 32px;
+  margin-top: 16px;
+}
+
+hr {
+  width: 15%;
+  border: 1px solid teal;
+  margin-top: 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  width: 30%;
+}
+
+form * {
+  margin-block: 8px;
+}
+
+input {
+  width: 98%;
+  height: 30px;
+}
+
+footer {
+  position: absolute;
+  bottom: 3px;
+}
+
+.add-book {
+  align-self: flex-end;
+  border: 2px solid teal;
+  background-color: #fff;
+  color: teal;
+  height: 30px;
+  width: 100px;
+}
+
+.add-book:hover {
+  background-color: teal;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.teal {
+  background-color: rgba(0, 128, 128, 0.5);
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-top: 12px;
+  width: 100%;
+}
+
+.book p {
+  width: 90%;
+  margin-left: 8px;
+}
+
+.remove-btn {
+  margin-block: 8px;
+  justify-self: center;
+  height: 30px;
+  width: 100px;
+  margin-right: 16px;
+  background-color: #fff;
+  border: 2px solid teal;
+}
+
+.remove-btn:hover {
+  background-color: teal;
+  color: #fff;
+}
+
+.teal-btn {
+  background-color: rgba(0, 128, 128, 0.5);
+  color: #fff;
+}
+
+.teal-btn:hover {
+  background-color: #fff;
+  color: teal;
+}
+
+.contact-padding {
+  padding: 0 25px;
+}
+
+.list-wrapper {
+  width: 75%;
+  padding: 0 0 0 25px;
+}
